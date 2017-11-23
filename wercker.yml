@@ -24,6 +24,6 @@ deploy:
     - internal/docker-push:
         username: $USERNAME
         password: $PASSWORD
-        repository: ipierrejacobs/dotnetcoreservices
+        repository: haribabu75/dotnetcoreservices
         registry: https://hub.docker.com/r/
-        entrypoint: "/pipeline/source/app/docker_entrypoint.sh"
+        entrypoint: ["dotnet", "myApp.dll"]

@@ -25,5 +25,5 @@ deploy:
         username: $USERNAME
         password: $PASSWORD
         repository: ipierrejacobs/dotnetcoreservices
-        registry: https://registry.hub.docker.com
+        registry: https://hub.docker.com/r/
         entrypoint: "/pipeline/source/app/docker_entrypoint.sh"

@@ -29,11 +29,9 @@ deploy:
         entrypoint: /pipeline/source/app/entrypoint.sh
 deploy-kube:
   steps:
-    - kubectl:
+    - script:
         name: deploy to kubernetes
-        server: 35.189.115.109
-        username: csuser
-        password: U8MCL0
-        insecure-skip-tls-verify: true
-        command: apply -f kubedeployment.yml
-        
+        code: |
+          ssh csuser:U8MCL0@35.189.115.109
+          cd configs
+          kubectl apply -f deployment-dotnetcore.yml

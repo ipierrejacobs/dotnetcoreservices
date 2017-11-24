@@ -1,0 +1,6 @@
+sudo docker run -it -p 80:5000  45b848b46058
+
+
+sudo docker build . -t ipierrejacobs/myapp -f Dockerfile 
+
+

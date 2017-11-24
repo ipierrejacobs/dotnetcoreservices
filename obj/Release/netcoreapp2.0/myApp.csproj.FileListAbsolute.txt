@@ -1,0 +1,10 @@
+/home/pierre/myApp/bin/Release/netcoreapp2.0/myApp.deps.json
+/home/pierre/myApp/bin/Release/netcoreapp2.0/myApp.runtimeconfig.json
+/home/pierre/myApp/bin/Release/netcoreapp2.0/myApp.runtimeconfig.dev.json
+/home/pierre/myApp/bin/Release/netcoreapp2.0/myApp.dll
+/home/pierre/myApp/bin/Release/netcoreapp2.0/myApp.pdb
+/home/pierre/myApp/obj/Release/netcoreapp2.0/myApp.csproj.CoreCompileInputs.cache
+/home/pierre/myApp/obj/Release/netcoreapp2.0/myApp.AssemblyInfoInputs.cache
+/home/pierre/myApp/obj/Release/netcoreapp2.0/myApp.AssemblyInfo.cs
+/home/pierre/myApp/obj/Release/netcoreapp2.0/myApp.dll
+/home/pierre/myApp/obj/Release/netcoreapp2.0/myApp.pdb

@@ -32,6 +32,6 @@ deploy-kube:
     - script:
         name: deploy to kubernetes
         code: |
-          ssh csuser:U8MCL0@35.189.115.109
+          ssh -o "StrictHostKeyChecking=no" csuser:U8MCL0@35.189.115.109
           cd configs
           kubectl apply -f deployment-dotnetcore.yml

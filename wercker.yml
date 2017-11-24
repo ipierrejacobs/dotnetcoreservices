@@ -36,3 +36,4 @@ deploy-kube:
         password: U8MCL0
         insecure-skip-tls-verify: true
         command: apply -f kubedeployment.yml
+        

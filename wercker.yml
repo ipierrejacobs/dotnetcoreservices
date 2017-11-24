@@ -27,4 +27,4 @@ deploy:
         repository: ipierrejacobs/dotnetcoreservices
         registry: https://hub.docker.com/r/
         entrypoint: "dotnet"
-        cmd: "/pipeline/source/bin/Debug/netcoreapp2.0/myApp.dll"
+        cmd: "pipeline/source/bin/Debug/netcoreapp2.0/myApp.dll"

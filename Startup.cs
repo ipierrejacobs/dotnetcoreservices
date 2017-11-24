@@ -16,7 +16,7 @@ namespace myApp{
         {
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello, everyone!");
+                await context.Response.WriteAsync("Hello, loosers!");
             });
         }
     }

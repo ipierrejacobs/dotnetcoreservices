@@ -27,3 +27,12 @@ deploy:
         repository: ipierrejacobs/dotnetcoreservices
         registry: https://hub.docker.com/r/
         entrypoint: /pipeline/source/app/entrypoint.sh
+deploy-kube:
+  steps:
+    - kubectl:
+        name: deploy to kubernetes
+        server: 35.189.115.109
+        username: csuser
+        password: U8MCL0
+        insecure-skip-tls-verify: true
+        command: apply -f kubedeployment.yml

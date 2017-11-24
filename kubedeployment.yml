@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: dotnetcore-deployment
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: dotnetcore-pod
+    spec:
+      containers:
+      - name: dotnetcore-pod
+        image: ipierrejacobs/dotnetcoreservices:latest
+        ports:
+        - containerPort: 5000

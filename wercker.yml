@@ -26,4 +26,4 @@ deploy:
         password: TimD0ckerAcc
         repository: ipierrejacobs/dotnetcoreservices
         registry: https://hub.docker.com/r/
-        cmd: [ "dotnet", "/pipeline/source/bin/Debug/netcoreapp2.0/myApp.dll" ]
+        entrypoint: /pipeline/source/app/entrypoint.sh
